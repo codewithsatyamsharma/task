@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#card-container {
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    font-size: 12px;
+    text-align: center;
+    word-break: break-all;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
